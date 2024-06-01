@@ -1,0 +1,115 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(147, 219, 147);
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1em;
+}
+
+header {
+    background-color: #e0f7fa; /* Light blue background for the header */
+}
+
+#site-name {
+    color: #0077b6; /* Ocean blue color */
+    font-family: 'Courier New', Courier, monospace; /* Cool font */
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Black text color for paragraphs */
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.highlight-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlight-image {
+    width: 100%;
+    max-width: 720px; /* Ensure the image doesn't get too large */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.highlight-text {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.centered-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+centered-list li::before {
+    content: "• ";
+    color: #0077b6; /* Ocean blue color for list bullets */
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "• ";
+    color: #0077b6; /* Ocean blue color for list bullets */
+    font-weight: bold;
+}
